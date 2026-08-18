@@ -17,16 +17,17 @@
 
 }
 
-.handle
- {
+
+ .handle {
   position: absolute;
-  width:8px;
+  width: 8px;
   height: 200px;
+  left: 50%;
+  bottom: 50%;
   transform: translateX(-50%);
-  left:50%;
-  bottom:50%;
+  transform-origin: bottom;
   background-color: black;
- }
+}
 
 
  .handle__second {
